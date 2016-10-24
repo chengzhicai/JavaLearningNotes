@@ -1,24 +1,19 @@
-/*
 package MyGame;
 import java.awt.*;
 
-*/
 /**
  * Created by chengzhicai on 2016/10/20.
- *//*
+ */
 
-
-*/
 /**
  * Created by chengzhicai on 2016/10/17.
- *//*
-
+ */
 public class GameFrame02 extends MyFrame {
     Image img = GameUtil.getImage("images/三勾玉写轮眼.jpg");//直接调用
 
     public static void main(String[] args) {
-        GameFrame02 gf02 = new GameFrame02();
-        gf02.launchFrame();
+        GameFrame02 gf = new GameFrame02();
+        gf.launchFrame();
     }
 
 
@@ -50,4 +45,3 @@ public class GameFrame02 extends MyFrame {
 
 
 }
-*/

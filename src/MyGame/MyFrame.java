@@ -3,8 +3,9 @@ package MyGame;
 import java.awt.*;
 import java.awt.event.*;
 
-
-
+/**
+ * Created by chengzhicai on 2016/10/23.
+ */
 public class MyFrame extends Frame {
 
     public void launchFrame() {
@@ -22,8 +23,11 @@ public class MyFrame extends Frame {
         });
     }
 
-
-
+    /**
+     * 定义一个重画窗口的线程类，是一个内部类
+     *
+     * @author chengzhicai
+     */
     class PaintTherad extends Thread {
         public void run() {
             while (true) {
