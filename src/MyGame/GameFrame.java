@@ -1,4 +1,6 @@
+
 package MyGame;
+
 
 
 /**
@@ -7,14 +9,17 @@ package MyGame;
 
 
 
+
 import java.awt.Font;
 import java.awt.*;
+
 
 
 
 /**
  * Created by chengzhicai on 2016/10/17.
  */
+
 
 public class GameFrame extends MyFrame {
     Image img = GameUtil.getImage("images/三勾玉写轮眼.jpg");//直接调用
@@ -51,4 +56,5 @@ public class GameFrame extends MyFrame {
         y += 3;
     }
 }
+
 
